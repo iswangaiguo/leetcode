@@ -8,7 +8,7 @@
 
 
 class Solution:
-    def smallestBeautifulString(self, s: str, k: int) -> str:
+    def smallestBeautifulString(self, s, k: int) -> str:
         a = ord("a")
         k += a
         s = list(map(ord, s))
