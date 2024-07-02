@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def maxDivScore(self, nums: List[int], divisors: List[int]) -> int:
         cnt, ans = -1, 0
